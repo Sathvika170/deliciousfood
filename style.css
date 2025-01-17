@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+}
+.Rest{
+    width: 100%;
+    height: 700PX;
+    background-color:transparent;
+    border: 2px solid grey;
+    text-align: bottom;
+    clear: both;
+    display: table;
+    background-image: url(ASSETS/3.jpg);
+background-position: center;
+background-size: cover;
+position: sticky;
+background-repeat: no-repeat;
+
+}
+
+.aurant{
+    width: 100%;
+    height: 40PX;
+    background-color:transparent;
+    border: 2px solid grey;
+    text-align: bottom;
+    clear: both;
+    display: table;
+    background-image: url(ASSETS/5.avif);
+background-position: center;
+background-size: cover;
+position: sticky;
+background-repeat: no-repeat;}
+
+questions summary{
+    color: white;
+}
+.food{
+    width: 100%;
+    height: 500PX;
+    background-color:transparent;
+    border: 2px solid grey;
+    text-align: bottom;
+    clear: both;
+    display: table;
+    background-image: url(ASSETS/food\ 3.jpeg);
+background-position: center;
+background-size: cover;
+position: sticky;
+background-repeat: no-repeat;}
+
+.matter{
+    transition: all 0.5s;
+}
+.matter:hover{
+    border-radius: 2px solid rgb(91, 89, 89);
+}
+.matter:hover{
+    transform:scale(0.9)
+}
+.about{
+    transition-duration:1s;
+}
+.about :hover {
+    border-radius:2px solid rgb(91, 89, 89)  ;
+    box-shadow: 2px 2px 5px 5px solid  rgb(91, 89, 89) ;
+}
+.about:hover {
+    transform:scale(0.9)
+}
+.banner button{
+    width: 200px;
+    height: 50px;
+    border-radius:40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid yellow;
+ }
+
+ .banner button:hover{
+    background-color:orange;
+    color: white;
+    transition: 1s;
+ }
+ .cook{
+    transition: all 0.5s;
+}
+.cook:hover img{
+    box-shadow: 2px 2px 5px 5px rgb(221, 214, 117);
+}
+.cook:hover{
+    border-radius: 2px solid rgb(91, 89, 89);
+
+}
+.cook:hover{
+    transform:scale(0.9)
+}
+div p {
+    color: gray;
+}
+.page{
+    width: 100%;
+    height: 300PX;
+    background-color:transparent;
+    border: 2px solid grey;
+    text-align: bottom;
+    clear: both;
+    display: table;
+    background-image: url(ASSETS/eat-food\ 2.jpg);
+background-position: center;
+background-size: cover;
+position: sticky;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.choose {
+    box-shadow: 2px 2px 4px 4px rgba(245, 195, 103, 0.933);
+border-radius: 20px;
+  
+}
+
+.choose :hover{
+    background-color:orange;
+ border: 0;
+ color: white;
+ transition: 2s;
+ 
+}
+ div h3{
+    color: rgb(250, 1, 1);
+}
+.sub{
+    background-color: black;
+}
+.sub h4 {
+    color: white;
+}
+.sub button{
+    background-color: transparent;
+    color: white;
+  
+    width: 150px;
+    height: 45px;
+}
+.vision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.age {
+width: 100%;
+height: 500PX;
+background-color:transparent;
+border: 2px solid grey;
+text-align: bottom;
+clear: both;
+display: table;
+background-image: url(ASSETS/age.jpg);
+background-position: center;
+background-size: cover;
+position: sticky;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.age h1{
+    color: white;
+    font-size: 56px;
+    font-weight: 500;
+    margin-top: 300px;
+}
+.card img {
+    width: 300px;
+    height: 200px;
+}
+.card {
+    width: 300px;
+
+}
+.checked {
+    color: orange;
+  }
+ .control {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   
+   
+}
+
+.form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+  
+}
+
+ .form h2 {
+    margin-bottom: 20px;
+    color: orange;
+}
+
+ .form label {
+    display: block;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+ .form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #a18484;
+    border-radius: 4px;
+}
+
+ .form button {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ .form button:hover {
+    background-color: orange;
+}
+
+#message {
+    margin-top: 20px;
+    color: red;
+}
